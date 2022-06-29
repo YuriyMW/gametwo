@@ -1,8 +1,9 @@
 package com.ymw;
 
-public class Hero {
+public abstract class Hero {
 
-    private String name;
+    private final String name;
+    private final int power = 13;
 
     public Hero(String name) {
         this.name = name;
@@ -12,7 +13,12 @@ public class Hero {
         return name;
     }
 
-    public void attackEnemy() {
+    public abstract void attackEnemy(Enemy enemy);
+    /*public void attackEnemy(Enemy enemy) {
+
         System.out.println("Hero "+getName()+" attack enemy!");
-    }
+        enemy.takeDamage(power);
+
+    }*/
+
 }

@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="823e137b-d69c-45b1-b2a8-ac6743a95dc1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ymw/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ymw/TrainingGround.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ymw/heroTypes/Warrior.java" afterDir="false" />
+    <list default="true" id="823e137b-d69c-45b1-b2a8-ac6743a95dc1" name="Changes" comment="warrior health">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ymw/Enemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ymw/Inter/Mortal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ymw/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ymw/Start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ymw/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ymw/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ymw/TrainingGround.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ymw/TrainingGround.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ymw/heroTypes/Archer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ymw/heroTypes/Archer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ymw/heroTypes/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ymw/heroTypes/Mage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ymw/heroTypes/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ymw/heroTypes/Warrior.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,10 +28,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="herodev" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -77,6 +86,9 @@
       <list>
         <item itemvalue="Application.TrainingGround" />
         <item itemvalue="Application.Start" />
+        <item itemvalue="Application.TrainingGround" />
+        <item itemvalue="Application.Start" />
+        <item itemvalue="Application.TrainingGround" />
       </list>
     </recent_temporary>
   </component>
@@ -89,14 +101,63 @@
       <option name="presentableId" value="Default" />
       <updated>1656527813672</updated>
     </task>
+    <task id="LOCAL-00001" summary="first hero">
+      <created>1656530330899</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656530330899</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first hero">
+      <created>1656531451746</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656531451746</updated>
+    </task>
+    <task id="LOCAL-00003" summary="warrior health">
+      <created>1656531604435</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656531604435</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="23f4891c-8a25-4716-83f8-766acd216842">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
@@ -113,5 +174,15 @@
         </entry>
       </map>
     </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="23f4891c-8a25-4716-83f8-766acd216842" value="TOOL_WINDOW" />
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new heros" />
+    <MESSAGE value="warrior health" />
+    <option name="LAST_COMMIT_MESSAGE" value="warrior health" />
   </component>
 </project>
